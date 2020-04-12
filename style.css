@@ -1,0 +1,220 @@
+*{
+    font-family: "Rimouski";
+}
+
+body{
+    background-color: #293251;
+}
+
+.container{
+    width: 300px;    
+    background-color: #FFF;
+    
+    display: block;
+    margin: 0 auto;
+    
+    border-radius: 10px;
+    padding-bottom : 50px;
+}
+
+
+
+.app-title{
+    width: 300px;
+    height: 50px;
+    border-radius: 10px 10px 0 0;
+}
+
+.app-title p{
+    text-align: center;
+    padding: 15px;
+    margin: 0 auto;
+    font-size: 1.2em;
+    color: #293251;
+}
+
+.notification{
+    background-color: #f8d7da;
+    display: none;
+}
+
+.notification p{
+    color: #721c24;
+    font-size: 1.2em;
+    margin: 0;
+    text-align: center;
+    padding: 10px 0;
+}
+
+.weather-container{
+    width: 300px;
+    height: 260px;
+    background-color: #F4F9FF;
+}
+
+.weather-icon{
+    width: 300px;
+    height: 128px;
+}
+
+.weather-icon img{
+    display: block;
+    margin: 0 auto;
+}
+
+.temperature-value{
+    width: 300px;
+    height:60px;
+}
+
+.temperature-value p{
+    padding: 0;
+    margin: 0;
+    color: #293251;
+    font-size: 4em;
+    text-align: center;
+    cursor: pointer;
+}
+
+.temperature-value p:hover{
+    
+}
+
+.temperature-value span{
+    color: #293251;
+    font-size: 0.5em;
+}
+
+.temperature-description{
+    
+}
+
+.temperature-description p{
+    padding: 8px;
+    margin: 0;
+    color: #293251;
+    text-align: center;
+    font-size: 1.2em;
+}
+
+.location{
+    
+}
+
+.location p{
+    margin: 0;
+    padding: 0;
+    color: #293251;
+    text-align: center;
+    font-size: 0.8em;
+}
+
+.days-weather{
+    display: none;
+    background-color: #F4F9FF;
+    border-radius: 10px;
+    margin:0 auto;
+    position: relative;
+    top: 10px;
+    min-height: 70px;
+    height: auto;
+    width: 300px;
+    margin-bottom: 10px;
+
+}
+
+
+.condition{
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    display: block;
+  
+
+
+}
+.wind{
+    padding: 5px;
+    width: auto;
+    background-color: #f4f9ff;
+    border-radius: 10px;
+    font-size: 1.2em;
+    color: #293251;
+
+}
+.wind p{
+    display: block;
+    text-align: center;
+
+
+}
+.footer{
+    position: fixed;
+    bottom: 10px;
+    text-align: right;
+    width: 99vw;
+    color: white;
+    right: 10px;
+}
+.weter2{
+    width: 300px;
+    height: 260px;
+    background-color: #F4F9FF;
+    display: inline-block;
+}
+.hide{
+    text-align: center;
+    display: block;
+    font-size: 25px;
+    font-weight: bolder;
+    position: relative;
+    top: 20px;
+   cursor: pointer;
+}
+
+.ten-days-weather{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+}
+.days{
+
+    width: 300px;
+
+    background-color: #F4F9FF;
+    margin: 10px;
+
+    border-radius: 10px;
+ 
+}
+
+.days p {
+    display: block;
+    text-align: center;
+    padding: 2px;
+    font-size: 1.2em;
+}
+.temperature-for-ten-days{
+    width: 300px;
+    background-color: #F4F9FF;
+    border-radius: 10px;
+
+}
+
+.ten-days-max{
+    display: block;
+    text-align: center;
+    padding: 8px;
+    margin: 0;
+    color: #293251;
+    text-align: center;
+    font-size: 22px;
+    margin-top: 10px;
+}
+
+
+
+
+
+

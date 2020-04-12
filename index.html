@@ -1,0 +1,65 @@
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="font/Rimouski.css">
+    <link rel="icon" href="icons/iconfinder_weather_39_2682812.png">
+    <title>Document</title>
+</head>
+
+<body>
+    <div class="container">
+        <div class="app-title">
+            <p>Weather</p>
+        </div>
+        <div class="notification"></div>
+        <div class="weather-container">
+            <div class="weather-icon"><img src="icons/unknown.png"></div>
+            <div class="temperature-value">
+                <p>_ &#176;<span>C</span></p>
+            </div>
+            <div class="temperature-description">
+                <p> - </p>
+            </div>
+            <div class="location">
+                <p> - </p>
+            </div>
+        </div>
+        <span class="hide"><img src="icons/caret-down.png" width="24px" height="24px"></span>
+    </div>
+
+    <div class="days-weather">
+        <div class="app-title">
+            <p style="background: white;border-radius: 10px;">Weather condition</p>
+        </div>
+        <div class="wind">
+
+            <p>Wind speed <span class="wind-speed">No data</span></p>
+            <p>Feels like <span class="feels-like"> _</span></p>
+            <p>Pressure <span class="pressure">No data</span></p>
+            <p>Visibility <span class="visibility">No data</span></p>
+
+        </div>
+        <div style="background: white; height: 50px; border-radius: 10px;"></div>
+    </div>
+
+    <div class="ten-days-weather">
+        <!-- <div class="days">
+            <p class="daysInWeek">Dan u nedelji</p>
+            <div class="temperature-for-ten-days">
+                
+            </div>
+        </div> -->
+    </div>
+
+    <div class="footer">
+        Designet by Uros Katanic
+    </div>
+
+    <script src="https://code.jquery.com/jquery-3.4.1.js" integrity="sha256-WpOohJOqMqqyKL9FccASB9O0KwACQJpFTUBLTYOVvVU=" crossorigin="anonymous"></script>
+    <script src="app.js"></script>
+</body>
+
+</html>
