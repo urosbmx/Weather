@@ -11,7 +11,7 @@ const wind = document.querySelector('.wind-speed');
 const feels = document.querySelector('.feels-like');
 const pressure = document.querySelector('.pressure');
 const visibility = document.querySelector('.visibility');
-// const key2 = ' 15a07862eeb65fd1aad281cdddff3183';
+const key2 = ' 15a07862eeb65fd1aad281cdddff3183';
 const dayOfWeek = document.querySelector('.daysInWeek');
 
 
@@ -29,7 +29,7 @@ weather10 = {
 }
 
 const KELVIN = 273;
-const key = "82005d27a116c2880c8f0fcb866998a0";
+const key = "bf9693c8b668dd8a625a6bd5dee53fea";
 
 if ('geolocation' in navigator) {
     navigator.geolocation.getCurrentPosition(setPosition, showError);
